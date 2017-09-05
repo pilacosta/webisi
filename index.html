@@ -1,10 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700" rel="stylesheet">
+    <!--<link rel="stylesheet" type="text/css" href="css/reset.css">-->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ISI</title>
+    <!-- CSS de Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
 </head>
-<body>
 
+<body>
+<div class="header-area">
+    <div class="line_rouge_header"></div>
+    <div class="container">
+        <div class="sec-menu row">
+            <div class="logo col-lg-2">
+                <img src="images/logo.png" alt="isi">
+            </div>
+            <nav class="col-lg-7">
+                <ul>
+                    <li><a href="#">Programmes</a></li>
+                    <li><a href="#">Admission></a></li>
+                    <li><a href="#">Services></a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="adm_international col-lg-3">
+                <img src="images/logo_adm_int.png" alt="isi">
+            </div>
+        </div ><!--sec-menu-->
+    </div><!--container-->
+</div><!--header-area-->
+
+<div class="slider-area">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/banner-01.jpg" alt="Los Angeles" style="width:100%;">
+            </div>
+
+            <div class="item">
+                <img src="images/banner-02.jpg" alt="Chicago" style="width:100%;">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div><!--myCarousel-->
+</div><!--slider-area-->
+
+<div class="main-area">
+    <div class="bande_rouge">
+        <div class="container">
+            <h1 class="text-uppercase h1_titres">Programmes</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="programmes row">
+            <div class="prog_info col-lg-8">
+                <h3>Une carrière en informatique</h3>
+                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+                    impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,
+                    quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen</p>
+            </div>
+            <img class="col-lg-4" src="images/isi_riseux_ securite_telephonie.jpg" alt="isi">
+        </div>
+        <div class="programmes row">
+            <img class="col-lg-4" src="images/isi_integration_web.jpg" alt="isi">
+            <img class="col-lg-4" src="images/isi_gestion_projets.jpg" alt="isi">
+            <img class="col-lg-4" src="images/integration_systèmes_information.jpg" alt="isi">
+            <img class="col-lg-4" src="images/isi_programmation_web.jpg" alt="isi">
+            <img class="col-lg-4" src="images/isi_securite.jpg" alt="isi">
+            <img class="col-lg-4" src="images/isi_jeu_video.jpg" alt="isi">
+        </div>
+    </div><!--container-->
+
+    <div class="bande_bleu">
+        <div class="container">
+            <h1 class="text-uppercase h1_titres">Admission</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container adm_gen col-lg-6">
+            <h2 class="text-uppercase text-center h1_titres">Admission général</h2>
+        </div>
+
+        <div class="container adm_inter col-lg-6">
+            <h2 class="text-uppercase text-center h1_titres">Admission internationale</h2>
+        </div>
+    </div>
+</div><!--main-area-->
+
+<div class="footer-area">
+    <div class="container">
+        <div class="row">
+            <div class="slide_footer col-lg-9 ">
+                <div class="images_slide row">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="col-lg-4" src="images/isi_temoignages.jpg" alt="isi">
+                                <img class="col-lg-4" src="images/isi_events.jpg" alt="isi">
+                                <img class="col-lg-4" src="images/isi_journe_carriere.jpg" alt="isi">
+                            </div>
+
+                            <div class="item">
+                                <img class="col-lg-4" src="images/isi_events.jpg" alt="isi">
+                                <img class="col-lg-4" src="images/isi_journe_carriere.jpg" alt="isi">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div><!--myCarousel-->
+                </div>
+            </div><!--slide_footer-->
+            <div class="medias_footer col-lg-3 ">
+                <div class="icon_medias">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-google"></a>
+                </div>
+
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Wyq4t1MiBgk" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+                <div class="galerie">
+
+                    <a href="#" class="gal_bt">
+                        <span class="glyphicon glyphicon-camera"></span> Galerie
+                    </a>
+                    <!--<a href="#" class="fa fa-camera col-lg-2"></a>-->
+                    <!--<h4 class="text col-lg-9">Galerie isi</h4>-->
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!– Importante llamar antes a jQuery para que funcione bootstrap.min.js   –>
+<script src="js/bootstrap.min.js"></script> <!– Llamamos al JavaScript de Bootstrap –>
 </body>
 </html>

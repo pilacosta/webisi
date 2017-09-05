@@ -6,3 +6,94 @@ Version : 1
 Author : auto
 Author URL : direction web del autor
 */
+
+.h1_titres{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-area{
+
+}
+.line_rouge_header{
+    background: #ed1c24;
+    height: 25px;
+}
+.bande_rouge {
+    background: #ed1c24;
+    height: 90px;
+}
+
+img{
+    max-width: 100%;
+}
+/*---------------main-area------------------*/
+.main-area .container{
+    padding: 0;
+}
+.programmes img.col-lg-4{
+    padding: 0;
+}
+
+.bande_bleu {
+    background: #0e3e5c;
+    height: 90px;
+}
+
+.adm_gen {
+    background: #0377Ba;
+    height: 90px;
+}
+.adm_inter {
+    background: #00aff0;
+    height: 90px;
+}
+
+/*---------------footer-area------------------*/
+.footer-area{
+    background:#2e2e2e ;
+    margin-top: 16px;
+    padding : 30px 0 30px 0;
+}
+/*social-medias*/
+.fa {
+    padding: 15px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.fa:hover {
+    color: #8c8c8c;
+    text-decoration: none;
+}
+.fa-facebook, .fa-twitter, .fa-youtube, .fa-linkedin, .fa-google{
+    background: #555555;
+    color: white;
+}
+
+.fa:last-child {
+    margin-right: 0;
+}
+.embed-responsive{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fa-camera{
+    /*background: #ffffff;
+    color: #000000;*/
+
+}
+.galerie{
+    /*padding: 20px;*/
+    padding-top: 15px;
+    /*padding: 20px;*/
+
+}
+
+
+a.gal_bt{
+    /*margin-top: 10px;*/
+    padding: 20px;
+    background-color: #00aff0;
+}
