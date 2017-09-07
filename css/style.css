@@ -7,9 +7,17 @@ Author : auto
 Author URL : direction web del autor
 */
 
+body{
+    font-family: 'Raleway', sans-serif;
+
+}
 .h1_titres{
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+p{
+
 }
 
 .header-area{
@@ -76,24 +84,60 @@ img{
     margin-right: 0;
 }
 .embed-responsive{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-.fa-camera{
-    /*background: #ffffff;
-    color: #000000;*/
 
-}
 .galerie{
-    /*padding: 20px;*/
-    padding-top: 15px;
-    /*padding: 20px;*/
-
+    background: #ed1c24;
 }
 
+.galerie:hover{
+    background: #e0a74d;
+}
+a.galerie_btn{
+    color: #ffffff;
+    font-weight: 500;
+}
+a.galerie_btn:hover{
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+}
+.icon_cam{
+    display: inline-block;
+    width: auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.glyphicon-camera{
+    color: #fff;
+    padding: 10px;
+}
+.logo_footer{
+    margin-top: 10px;
+}
+.logo_footer_isi, .contact_info{
+    display: inline-block;
+    vertical-align: top;
+    /*width: auto;*/
+}
+.contact_info p{
+    color: #ffffff;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 
-a.gal_bt{
-    /*margin-top: 10px;*/
-    padding: 20px;
-    background-color: #00aff0;
+}
+.contact_info{
+    margin-left: 10px;
+}
+
+.copyright-area{
+   background: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #fdfdfd;
+    font-size: 1rem;
+    padding: 10px;
 }
