@@ -23,17 +23,48 @@ p{
 
 .sec-menu{
     margin: 15px 0 15px 0;
-}
 
+
+}
+.container{
+position: relative;
+}
 .logo.col-lg-1, .navbar.col-lg-9, .adm_international.col-lg-2{
     padding: 0;
 }
-
+.adm_international{
+    margin-top: 25px;
+}
 .nav > li > a {
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
+    font-weight: 700;
+}
 
+.navbar.navbar-default{
+background-color: #ffffff;
+    margin-top: 20px;
+    padding-left: 130px;
+    border: none;
+}
+
+.langue a{
+    position: absolute;
+    right: 100px;
+    z-index:9999;
+    top: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px;
+    /*border: 1px solid #fd9271;*/
+    background: #f5f5f5;
+    color: #333;
+}
+.langue a:hover{
+    text-decoration: none;
+    background:#ececec;
 }
 .header-area{
 

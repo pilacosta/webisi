@@ -18,13 +18,21 @@
         <div class="line_rouge_header"></div>
         <div class="container">
             <div class=" sec-menu row">
-                <div class="logo col-lg-1">
+                <div class="logo col-lg-1 col-md-1 col-sm-2 col-xs-2 ">
                     <img src="images/logo.png" alt="isi">
                 </div>
-                <nav class=" navbar navbar-default col-lg-9"> <!--bootstrap-->
+                <nav class=" navbar navbar-default col-lg-9 col-md-9 col-sm-7 col-xs-7 "> <!--bootstrap-->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li class=" dropdown"><a class="dropdown-toggle" data-toggle="dropdown"  href="#">Programmes
-                            <span class="caret"></span></a>
+                        <li class=" dropdown">
+                            <a class="active dropdown-toggle" data-toggle="dropdown"  href="#">Programmes<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Programmation, réseaux et télécommunications</a></li>
                                 <li><a href="#">Programmation et technologies internet</a></li>
@@ -35,22 +43,26 @@
                                 <li><a href="#">Gestion de projets informatiques T.I.</a></li>
                             </ul>
                         </li>
-
                         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"  href="#">Admission
                             <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Admission général</a></li>
                                 <li><a href="#">Admission internationale</a></li>
                             </ul>
-
                         </li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">À propos</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
-                </nav>
-                <div class="adm_international col-lg-2">
+                    </div><!--collapse-->
+                </nav><!--navbar-->
+
+                <div class="adm_international col-lg-2 col-md-2 col-sm-3 col-xs-3">
                     <img class="img-fluid" src="images/logo_adm_int.png" alt="isi">
+                </div>
+
+                <div class="langue">
+                    <a href="#">AN</a>
                 </div>
             </div ><!--sec-menu-->
         </div><!--container-->
