@@ -19,7 +19,22 @@ body{
 p{
 
 }
+/*section menu*/
 
+.sec-menu{
+    margin: 15px 0 15px 0;
+}
+
+.logo.col-lg-1, .navbar.col-lg-9, .adm_international.col-lg-2{
+    padding: 0;
+}
+
+.nav > li > a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
 .header-area{
 
 }
