@@ -11,6 +11,13 @@
     <title>ISI</title>
     <!-- CSS de Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+
+    <style type="text/css">
+        .fb-comment-comment {
+            width: 500px;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -110,13 +117,61 @@
                 <img class="col-lg-4" src="images/isi_riseux_ securite_telephonie.jpg" alt="isi">
             </div>
             <div class="programmes row">
-                <img class="col-lg-4" src="images/isi_integration_web.jpg" alt="isi">
+
+
+
+
+                <div class="img-text">
+
+                    <div class="item">
+                        <a href="#" class="captionX">
+                        <!--<div class="captionX">-->
+                            <h4 class="text-uppercase">Intégration de sites web</h4>
+                        <!--</div>-->
+                        </a>
+                        <img class="col-lg-4" src="images/isi_integration_web.jpg" alt="isi">
+                    </div>
+
+                    <!--<a href="#" class="prog_btn">
+                        <div class="programmeX">
+                            <h5 class="icon_cam text-uppercase">Intégration de sites</h5>
+                        </div>
+                    </a>
+
+
+-->
+
+                    <!--<a href="#" class="caption">
+                        <div class="caption">
+                            <h6>Intégration desites web</h6>
+                        </div>
+                    </a>
+                    <img class="col-lg-4" src="images/isi_integration_web.jpg" alt="isi">-->
+                </div>
+
                 <img class="col-lg-4" src="images/isi_gestion_projets.jpg" alt="isi">
                 <img class="col-lg-4" src="images/integration_systèmes_information.jpg" alt="isi">
                 <img class="col-lg-4" src="images/isi_programmation_web.jpg" alt="isi">
                 <img class="col-lg-4" src="images/isi_securite.jpg" alt="isi">
                 <img class="col-lg-4" src="images/isi_jeu_video.jpg" alt="isi">
             </div>
+
+            <div class="row info_isi">
+                <div class=" col-lg-8">
+                    <h3>L'ISI : Collège d'informatique à Montréal son en cours</h3>
+                    <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+                        impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,
+                        quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen</p>
+                </div>
+
+                <div class="sec-facebook col-lg-4">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fisimtl&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                            width="100%" height="250" style="border:solid #999 1px;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+                </div>
+
+            </div>
+
         </div><!--container-->
 
         <div class="bande_bleu">
@@ -212,5 +267,20 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!– Importante llamar antes a jQuery para que funcione bootstrap.min.js   –>
 <script src="js/bootstrap.min.js"></script> <!– Llamamos al JavaScript de Bootstrap –>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/fr_CA/sdk.js#xfbml=1&version=v2.10";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+
 </body>
 </html>

@@ -187,3 +187,102 @@ a.galerie_btn:hover{
     font-size: 1rem;
     padding: 10px;
 }
+
+.sec-facebook{
+    /*min-height: 200px;*/
+}
+
+.info_isi{
+    margin: 15px 0 15px 0;
+
+}
+.img-text{
+    position:relative;/*conteneur pour placer textes*/
+}
+
+.caption {
+    width: 25%;
+
+    /*display: none;*/
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    background: rgba(0,0,0,0.5);
+    /*width: 100%;*/
+    height: 100%;
+    padding: 130px 30px 0 30px;
+    text-align: center;
+    z-index: 999;
+}
+.caption h6 {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.caption p {
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: .75em;
+    line-height: 1.5em;
+    padding-bottom: 20px;
+}
+.caption a {
+    font-size: .75em;
+    line-height: 1.5em;
+    margin: 50px 20px 15px;
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+/*test*/
+.programmeX{
+    background: #ed1c24;
+}
+
+.programmeX:hover{
+    background: #e0a74d;
+}
+a.prog_btn{
+    color: #ffffff;
+    font-weight: 500;
+}
+a.prog_btn:hover{
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.prog_btn {
+    width: 25%;
+
+    /*display: none;*/
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    background: rgba(0,0,0,0.5);
+    /*width: 100%;*/
+    height: 100%;
+    padding: 130px 30px 0 30px;
+    text-align: center;
+    z-index: 999;
+}
+
+.captionX {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    background: rgba(0,0,0,0.5);
+    /*right: 15%;
+    bottom: 20px;*/
+    /*left: 15%;*/
+    z-index: 999;
+    padding: 20px;
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/
+    color: #ffffff;
+    text-align: center;
+}
+.item{
+
+}
